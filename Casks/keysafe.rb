@@ -4,7 +4,7 @@ cask "keysafe" do
 
   url "https://miln.eu/keysafe/miln-keysafe-darwin-universal.zip"
   name "Keysafe"
-  desc "Reads and decrypts Apple Keychain files"
+  desc "Read and decrypt Apple Keychain files"
   homepage "https://miln.eu/keysafe"
 
   livecheck do
