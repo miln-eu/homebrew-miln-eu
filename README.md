@@ -1,2 +1,3 @@
-# homebrew-casks
-Casks for Homebrew
+# homebrew
+
+Miln casks and formula for [Homebrew](https://brew.sh).
