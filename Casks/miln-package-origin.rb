@@ -1,8 +1,8 @@
 cask "miln-package-origin" do
-  version "1.1.0+20220711.150832"
-  sha256 "3b82920fe5a8c15b35183449b77f9ac2d2bb92ad1b15589a8943058a351e01bc"
+  version "1.2.0+20220718.162340"
+  sha256 "91a9374b8905c43bcd262830eed385d2480015c7af8102ac1c440ce8278ca09c"
 
-  url "https://packageorigin.com/download/miln-package-origin-v1.1.0-darwin-universal.zip"
+  url "https://packageorigin.com/download/miln-package-origin-v1.2.0-darwin-universal.zip"
   name "Package Origin"
   desc "A multi-platform multi-format software distribution server."
   homepage "https://packageorigin.com"
@@ -13,5 +13,5 @@ cask "miln-package-origin" do
     regex(/miln-package-origin[._-]v?(\d+(?:\.\d+)+)-darwin-universal\.zip/)
   end
 
-  binary "miln-package-origin-v1.1.0-darwin-universal/packageorigin"
+  binary "miln-package-origin-v1.2.0-darwin-universal/packageorigin"
 end
