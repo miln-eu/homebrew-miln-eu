@@ -1,10 +1,10 @@
 cask "miln-calsub" do
-  version "1.2.0+20231004.094813"
-  sha256 "4dde8b79a21ce11a16e03217fe661bb28b60fb12d1d43b0ff480454ca3a06a0b"
+  version "1.2.1+20231016.102816"
+  sha256 "0427927d3890ba286c5276622e015f3cb406036998ef167365bd332ee6c02329"
 
-  url "https://miln.eu/calsub/miln-calsub-v1.2.0-darwin-universal.zip"
+  url "https://miln.eu/calsub/miln-calsub-v1.2.1-darwin-universal.zip"
   name "CalSub"
-  desc "Import iCalendar (ics) events into a CalDav calendar"
+  desc "Import iCalendar (ics) events into a CalDAV calendar"
   homepage "https://miln.eu/calsub"
 
   livecheck do
@@ -13,5 +13,5 @@ cask "miln-calsub" do
     regex(/miln-calsub[._-]v?(\d+(?:\.\d+)+)-darwin-universal\.zip/)
   end
 
-  binary "miln-calsub-v1.2.0-darwin-universal/calsub"
+  binary "miln-calsub-v1.2.1-darwin-universal/calsub"
 end
