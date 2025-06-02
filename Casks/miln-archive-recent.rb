@@ -1,8 +1,8 @@
 cask "miln-archive-recent" do
-  version "1.1.0+20250315.133535"
-  sha256 "0d43e2bbcfa5bb8f86324b38870a584a4b4f64531a479c2644944b98cadc81b0"
+  version "1.3.0+20250602.141057"
+  sha256 "ab663b5a00bc733a214468a98a772867622cbed32c211d6b5d959d6716ad2229"
 
-  url "https://miln.eu/archiverecent/miln-archive-recent-v1.1.0-darwin-universal.zip"
+  url "https://miln.eu/archiverecent/miln-archive-recent-v1.3.0-darwin-universal.zip"
   name "Archive Recent"
   desc "Tool to create archives of recently changed files"
   homepage "https://miln.eu/archiverecent"
@@ -13,5 +13,5 @@ cask "miln-archive-recent" do
     regex(/miln-archive-recent[._-]v?(\d+(?:\.\d+)+)-darwin-universal\.zip/)
   end
 
-  binary "miln-archive-recent-v1.1.0-darwin-universal/archiverecent"
+  binary "miln-archive-recent-v1.3.0-darwin-universal/archiverecent"
 end
