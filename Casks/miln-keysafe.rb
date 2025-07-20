@@ -1,8 +1,8 @@
 cask "miln-keysafe" do
-  version "1.9.0+20250601.161012"
-  sha256 "2e56b0ad8b1661e0ed851d7a01fddcd5f4a608f79d75c4f4d6964983fd8de9da"
+  version "1.9.1+20250720.142228"
+  sha256 "b20bb14c74d012173261cb76785ffb3187d3ee7e23ae4765cdcf39ff07628529"
 
-  url "https://miln.eu/keysafe/miln-keysafe-v1.9.0-darwin-universal.zip"
+  url "https://miln.eu/keysafe/miln-keysafe-v1.9.1-darwin-universal.zip"
   name "Keysafe"
   desc "Read and decrypt Keychain files"
   homepage "https://miln.eu/keysafe"
@@ -13,5 +13,5 @@ cask "miln-keysafe" do
     regex(/miln-keysafe[._-]v?(\d+(?:\.\d+)+)-darwin-universal\.zip/)
   end
 
-  binary "miln-keysafe-v1.9.0-darwin-universal/keysafe"
+  binary "miln-keysafe-v1.9.1-darwin-universal/keysafe"
 end
